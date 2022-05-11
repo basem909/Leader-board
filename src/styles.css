@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1vw;
+}
+
+h1 {
+font-size: 6vw;
+font-family: sans-serif;
+font-weight: 500;
+}
+
+h2 {
+  font-size: 4vw;
+  font-weight: 300;
+}
+
+.divisions{
+  display: flex;
+  gap: 4vw;
+  padding-left: 4vw;
+}
+
+.title{
+  display: flex;
+  gap: 3vw;
+}
+
+a{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border:solid black 2px;
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  width: auto;
+  padding: .5vw;
+  font-size: 2vw;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.score-sheet {
+  width: 40vw;
+}
+
+.add-score {
+  width: 40vw;
+}
+
+.high-list {
+  border: solid black 2px;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.high-list > li {
+padding: 1vw;
+font-size: 2vw;
+}
+
+.high-list > li:nth-child(2n + 1) {
+  background-color: #ddd;
+}
+
+.name {
+  height: 5vh;
+  border: solid black 2px;
+}
+
+.submit {
+width: fit-content;
+height: fit-content;
+padding: .5vw;
+align-self: flex-end;
+border: groove black 2px;
+cursor: pointer;
+}
