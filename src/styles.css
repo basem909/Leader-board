@@ -1,18 +1,18 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: column;
   padding-left: 1vw;
 }
 
 h1 {
-font-size: 6vw;
-font-family: sans-serif;
-font-weight: 500;
+  font-size: 6vw;
+  font-family: sans-serif;
+  font-weight: 500;
 }
 
 h2 {
@@ -20,31 +20,31 @@ h2 {
   font-weight: 300;
 }
 
-.divisions{
+.divisions {
   display: flex;
   gap: 4vw;
   padding-left: 4vw;
 }
 
-.title{
+.title {
   display: flex;
   gap: 3vw;
 }
 
-a{
+a {
   display: flex;
   justify-content: center;
   align-self: center;
-  border:solid black 2px;
+  border: solid black 2px;
   text-decoration: none;
   color: black;
   height: 100%;
   width: auto;
-  padding: .5vw;
+  padding: 0.5vw;
   font-size: 2vw;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -69,8 +69,8 @@ form{
 }
 
 .high-list > li {
-padding: 1vw;
-font-size: 2vw;
+  padding: 1vw;
+  font-size: 2vw;
 }
 
 .high-list > li:nth-child(2n + 1) {
@@ -80,13 +80,12 @@ font-size: 2vw;
 .name {
   height: 5vh;
   border: solid black 2px;
+  padding-left: 1vw;
 }
 
 .submit {
-width: fit-content;
-height: fit-content;
-padding: .5vw;
-align-self: flex-end;
-border: groove black 2px;
-cursor: pointer;
+  padding: 0.7vw;
+  align-self: flex-end;
+  border: groove black 2px;
+  cursor: pointer;
 }
