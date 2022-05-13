@@ -49,6 +49,7 @@ form {
   flex-direction: column;
   justify-content: space-between;
   height: 50%;
+  min-height: 30vh;
 }
 
 .score-sheet {
