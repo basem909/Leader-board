@@ -1,33 +1,25 @@
 body {
-  margin: 0;
   padding: 0;
 }
 
 .container {
-  display: flex;
   flex-direction: column;
   padding-left: 2vw;
 }
 
 h1 {
-  font-size: 9vw;
-  font-family: "Macondo", cursive;
-  font-weight: 400;
+  font-size: 8vw;
+  font-family: "Playfair Display SC", serif;
   padding-left: 4vw;
-  margin-bottom: 0;
   margin-top: 4vh;
 }
 
 h2 {
-  font-size: 4vw;
-  font-weight: 400;
-  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 3.5vw;
   margin-top: 0;
-  margin-bottom: 0;
 }
 
 .divisions {
-  display: flex;
   gap: 4vw;
   padding-left: 4vw;
   padding-right: 4vw;
@@ -35,34 +27,24 @@ h2 {
 }
 
 .title {
-  display: flex;
   gap: 5vw;
-  padding-bottom: 2vh;
+  padding-bottom: 2vw;
 }
 
 a {
-  display: flex;
-  justify-content: center;
-  align-self: center;
   text-decoration: none;
   color: black;
-  height: 100%;
-  width: auto;
-  font-size: 3vw;
-  border: groove darkgrey 2px;
-  cursor: pointer;
-  background-color: white;
-  font-family: "Pacifico", cursive;
+  font-size: 2.5vw;
   padding: 0.5vw;
 }
 
-a:hover {
+a:hover,
+.submit:hover {
   background-color: lightgrey;
   border: solid black 2px;
 }
 
 form {
-  display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 50%;
@@ -71,47 +53,35 @@ form {
 }
 
 .score-sheet {
-  width: 40vw;
   font-size: 5vw;
-  padding: 2vw;
-  border: groove black 2px;
 }
 
 .add-score {
-  width: 40vw;
   height: 100%;
   background-color: lightgrey;
-  border: black groove 2px;
-  padding: 2vw;
 }
 
 .high-list {
-  border: solid grey 2px;
   justify-content: center;
   align-items: center;
   padding-inline-start: 0;
   list-style: none;
-  margin: 0;
 }
 
 .high-list > li {
   padding: 1vw;
-  font-size: 3.5vw;
-  font-style: italic;
-  font-family: "Zen Loop", cursive;
+  font-size: 2.5vw;
+  font-family: "Special Elite", cursive;
   padding-left: 2vw;
 }
 
 .high-list > li:nth-child(2n + 1) {
   background-color: lightgrey;
-  color: white;
 }
 
 .name {
   height: 5vw;
-  border: groove darkgray 1px;
   padding-left: 1vw;
-  font-family: "Pacifico", cursive;
   font-size: 2vw;
 }
 
@@ -119,13 +89,45 @@ form {
   padding: 0.7vw;
   align-self: flex-end;
   font-size: 3vw;
-  border: groove darkgrey 2px;
-  cursor: pointer;
   background-color: white;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.border-grey {
+  border: groove darkgray 2px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.border-black {
+  border: groove black 2px;
+}
+
+.special-elite {
+  font-family: "Special Elite", cursive;
+}
+
+.width-40vw {
+  width: 40vw;
+}
+
+.oleo-font {
   font-family: "Oleo Script Swash Caps", cursive;
 }
 
-.submit:hover {
-  background-color: lightgrey;
-  border: solid black 2px;
+.m-0 {
+  margin: 0;
+}
+
+.m-bottom0 {
+  margin-bottom: 0;
+}
+
+.padding-2vw {
+  padding: 2vw;
 }
