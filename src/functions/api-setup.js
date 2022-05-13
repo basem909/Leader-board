@@ -8,11 +8,11 @@ const scoreShow = (players) => {
   });
 };
 
- const getData = async () => {
+const getData = async () => {
   const stored = await fetch(api);
   const data = stored.json();
   return data;
-}
+};
 
 const insertPlayer = async () => {
   const players = await getData();
