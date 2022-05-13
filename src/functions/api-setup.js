@@ -1,9 +1,8 @@
-const api =
-  "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/UEH7RC3HNQw5hcmpfDEd/scores/";
+const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/UEH7RC3HNQw5hcmpfDEd/scores/';
 
 const scoreShow = (players) => {
-  const scoreSheet = document.querySelector(".high-list");
-  scoreSheet.innerHTML = ''
+  const scoreSheet = document.querySelector('.high-list');
+  scoreSheet.innerHTML = '';
   players.forEach((player) => {
     scoreSheet.innerHTML += `<li class="high-score">${player.user} : ${player.score}</li>`;
   });
@@ -22,9 +21,9 @@ const insertPlayer = async () => {
 
 const addUser = async (data) => {
   await fetch(api, {
-    method: "POST",
+    method: 'POST',
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify({ user: data[0], score: data[1] }),
   });
