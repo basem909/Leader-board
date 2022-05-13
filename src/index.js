@@ -1,4 +1,3 @@
-// import _ from "lodash";
 import { addUser, insertPlayer } from './functions/api-setup.js';
 import './styles.css';
 
