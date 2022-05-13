@@ -6,42 +6,59 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  padding-left: 1vw;
+  padding-left: 2vw;
 }
 
 h1 {
-  font-size: 6vw;
-  font-family: sans-serif;
-  font-weight: 500;
+  font-size: 8vw;
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  padding-left: 4vw;
+  margin-bottom: 0;
+  margin-top: 4vh;
 }
 
 h2 {
+  font-family: "Macondo", cursive;
   font-size: 4vw;
-  font-weight: 300;
+  font-weight: 400;
+  font-family: "Oleo Script Swash Caps", cursive;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .divisions {
   display: flex;
   gap: 4vw;
   padding-left: 4vw;
+  margin-top: 4vh;
 }
 
 .title {
   display: flex;
-  gap: 3vw;
+  gap: 5vw;
+  padding-bottom: 2vh;
 }
 
 a {
   display: flex;
   justify-content: center;
   align-self: center;
-  border: solid black 2px;
   text-decoration: none;
   color: black;
   height: 100%;
   width: auto;
+  font-size: 3vw;
+  border: groove darkgrey 2px;
+  cursor: pointer;
+  background-color: white;
+  font-family: "Pacifico", cursive;
   padding: 0.5vw;
-  font-size: 2vw;
+}
+
+a:hover {
+  background-color: lightgrey;
+  border: solid black 2px;
 }
 
 form {
@@ -55,14 +72,20 @@ form {
 
 .score-sheet {
   width: 40vw;
+  font-size: 5vw;
+  padding: 2vw;
+  border: groove black 2px;
 }
 
 .add-score {
   width: 40vw;
+  background-color: lightgrey;
+  border: black groove 2px;
+  padding: 2vw;
 }
 
 .high-list {
-  border: solid black 2px;
+  border: solid grey 2px;
   justify-content: center;
   align-items: center;
   padding-inline-start: 0;
@@ -72,22 +95,37 @@ form {
 
 .high-list > li {
   padding: 1vw;
-  font-size: 2vw;
+  font-size: 3.5vw;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: "Zen Loop", cursive;
+  padding-left: 2vw;
 }
 
 .high-list > li:nth-child(2n + 1) {
-  background-color: #ddd;
+  background-color: lightgrey;
+  color: white;
 }
 
 .name {
   height: 5vh;
-  border: solid black 2px;
+  border: groove darkgray 1px;
   padding-left: 1vw;
+  font-family: "Pacifico", cursive;
+  font-size: 2vw;
 }
 
 .submit {
   padding: 0.7vw;
   align-self: flex-end;
-  border: groove black 2px;
+  font-size: 3vw;
+  border: groove darkgrey 2px;
   cursor: pointer;
+  background-color: white;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.submit:hover {
+  background-color: lightgrey;
+  border: solid black 2px;
 }

@@ -4,6 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leader board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Loop:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section class="container">
@@ -14,15 +32,22 @@
             <h2 class="recent">Recent scores</h2>
             <a href="#" class="refresh">Refresh</a>
           </div>
-          <ul class="high-list">
-          </ul>
+          <ul class="high-list"></ul>
         </div>
         <div class="add-score">
           <h2 class="add">Add score</h2>
           <form action="#">
-            <input type="text" class="name" placeholder="Your name" required/>
-            <input type="number" class="name" id="scored" placeholder="Your score" required  min="0" max="1000"/>
-            <input type="submit" class="submit" value="submit" />
+            <input type="text" class="name" placeholder="Your name" required />
+            <input
+              type="number"
+              class="name"
+              id="scored"
+              placeholder="Your score"
+              required
+              min="0"
+              max="1000"
+            />
+            <input type="submit" class="submit" value="Submit" />
           </form>
         </div>
       </section>
