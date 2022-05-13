@@ -4,25 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leader board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <section class="container">
-      <h1>Leader board</h1>
-      <section class="divisions">
-        <div class="score-sheet">
-          <div class="title">
-            <h2 class="recent">Recent scores</h2>
-            <a href="#" class="refresh">Refresh</a>
+  <body class="m-0">
+    <section class="container d-flex">
+      <h1 class="m-bottom0">Leader Board</h1>
+      <section class="divisions d-flex">
+        <div class="score-sheet border-black width-40vw padding-2vw">
+          <div class="title d-flex">
+            <h2 class="recent oleo-font m-bottom0">Recent scores</h2>
+            <a href="#" class="refresh d-flex pointer border-grey oleo-font">Refresh</a>
           </div>
-          <ul class="high-list">
-          </ul>
+          <ul class="high-list border-grey m-0"></ul>
         </div>
-        <div class="add-score">
-          <h2 class="add">Add score</h2>
-          <form action="#">
-            <input type="text" class="name" placeholder="Your name" required/>
-            <input type="number" class="name" id="scored" placeholder="Your score" required  min="0" max="1000"/>
-            <input type="submit" class="submit" value="submit" />
+        <div class="add-score border-black width-40vw padding-2vw">
+          <h2 class="add oleo-font m-bottom0">Add score</h2>
+          <form action="#" class="d-flex">
+            <input type="text" class="name border-grey special-elite" placeholder="Your name" required />
+            <input
+              type="number"
+              class="name border-grey special-elite"
+              id="scored"
+              placeholder="Your score"
+              required
+              min="0"
+              max="1000"
+            />
+            <input type="submit" class="submit border-grey pointer oleo-font" value="Submit" />
           </form>
         </div>
       </section>
