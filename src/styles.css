@@ -19,7 +19,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Macondo", cursive;
   font-size: 4vw;
   font-weight: 400;
   font-family: "Oleo Script Swash Caps", cursive;
@@ -65,7 +64,7 @@ a:hover {
 form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 50%;
   min-height: 30vw;
   max-height: 50vh;
