@@ -50,6 +50,7 @@ form {
   justify-content: space-between;
   height: 50%;
   min-height: 30vh;
+  max-height: 50vh;
 }
 
 .score-sheet {

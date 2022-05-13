@@ -1,4 +1,4 @@
-const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/UEH7RC3HNQw5hcmpfDEd/scores/';
+const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/yt4bW2YG8dzNoT7iJENQ/scores/';
 
 const scoreShow = (players) => {
   const scoreSheet = document.querySelector('.high-list');
