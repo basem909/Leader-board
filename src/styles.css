@@ -38,12 +38,6 @@ a {
   padding: 0.5vw;
 }
 
-a:hover,
-.submit:hover {
-  background-color: lightgrey;
-  border: solid black 2px;
-}
-
 form {
   flex-direction: column;
   justify-content: space-around;
@@ -90,6 +84,12 @@ form {
   align-self: flex-end;
   font-size: 3vw;
   background-color: white;
+}
+
+a:hover,
+.submit:hover {
+  background-color: lightgrey;
+  border: solid black 2px;
 }
 
 .d-flex {
