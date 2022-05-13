@@ -8,7 +8,7 @@ const scoreShow = (players) => {
   });
 };
 
-async function getData() {
+ const getData = async () => {
   const stored = await fetch(api);
   const data = stored.json();
   return data;
